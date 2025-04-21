@@ -1,0 +1,46 @@
+@import '@/styles/variables.scss'; // Importing SCSS variables
+
+.container {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: $background-color; // deep brown background
+  color: $text-color; // soft cream text color
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Georgia', serif;
+  overflow: hidden; // Hides the scrollbar
+}
+
+.main {
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: normal;
+}
+/* Ensure mobile responsiveness */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.1rem;
+  }
+  
+  .logo {
+    transform: scale(0.7);
+  }
+}
+
+/* For taller mobile screens to ensure vertical centering */
+@media (min-height: 700px) {
+  .main {
+    padding-bottom: 3rem;
+  }
+}
