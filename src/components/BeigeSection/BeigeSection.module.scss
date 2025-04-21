@@ -1,0 +1,32 @@
+@import '@/styles/variables.scss'; // Importing SCSS variables
+
+.beigeSection {
+    width: 100%;
+    min-height: 100vh;
+    background-color:$background-color-light; // Beige color matching the image
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .contentContainer {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .sectionText {
+    color:$primary-color;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.6;
+    font-family: $font-family-alt;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .beigeSection {
+      min-height: 50vh;
+    }
+  }
