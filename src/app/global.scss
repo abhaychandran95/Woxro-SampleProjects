@@ -1,0 +1,19 @@
+@import '@/styles/variables.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%; 
+  width: 100%; 
+  overflow: auto; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
