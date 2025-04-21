@@ -1,8 +1,6 @@
 // src/pages/index.tsx
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from '@/components/hero/hero.module.scss';
 import logo from '@/public/logo.png'; // Adjust the path as necessary
 
